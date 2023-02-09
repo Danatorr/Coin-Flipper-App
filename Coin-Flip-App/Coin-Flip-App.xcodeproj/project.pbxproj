@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D64991352981F53100B1F8BB /* coinFlip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D64991342981F53000B1F8BB /* coinFlip.mp3 */; };
+		D6C81588299548F50051C105 /* Heads.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C81587299548F50051C105 /* Heads.png */; };
 		D6D72CA7297F1E5700CD29E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D72CA6297F1E5700CD29E7 /* AppDelegate.swift */; };
 		D6D72CA9297F1E5700CD29E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D72CA8297F1E5700CD29E7 /* SceneDelegate.swift */; };
 		D6D72CAB297F1E5700CD29E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D72CAA297F1E5700CD29E7 /* ViewController.swift */; };
 		D6D72CAE297F1E5700CD29E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D72CAC297F1E5700CD29E7 /* Main.storyboard */; };
 		D6D72CB0297F1E5800CD29E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D72CAF297F1E5800CD29E7 /* Assets.xcassets */; };
 		D6D72CB3297F1E5800CD29E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D72CB1297F1E5800CD29E7 /* LaunchScreen.storyboard */; };
-		D6D72CC02981EBB500CD29E7 /* Heads.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D72CBE2981EBB500CD29E7 /* Heads.png */; };
 		D6D72CC12981EBB500CD29E7 /* Tails.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D72CBF2981EBB500CD29E7 /* Tails.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D64991342981F53000B1F8BB /* coinFlip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coinFlip.mp3; sourceTree = "<group>"; };
+		D6C81587299548F50051C105 /* Heads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heads.png; sourceTree = "<group>"; };
 		D6D72CA3297F1E5700CD29E7 /* Coin-Flip-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin-Flip-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D72CA6297F1E5700CD29E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6D72CA8297F1E5700CD29E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		D6D72CAF297F1E5800CD29E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D72CB2297F1E5800CD29E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6D72CB4297F1E5800CD29E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6D72CBE2981EBB500CD29E7 /* Heads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heads.png; sourceTree = "<group>"; };
 		D6D72CBF2981EBB500CD29E7 /* Tails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tails.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,9 +69,9 @@
 				D6D72CAF297F1E5800CD29E7 /* Assets.xcassets */,
 				D6D72CB1297F1E5800CD29E7 /* LaunchScreen.storyboard */,
 				D6D72CB4297F1E5800CD29E7 /* Info.plist */,
-				D6D72CBE2981EBB500CD29E7 /* Heads.png */,
 				D6D72CBF2981EBB500CD29E7 /* Tails.png */,
 				D64991342981F53000B1F8BB /* coinFlip.mp3 */,
+				D6C81587299548F50051C105 /* Heads.png */,
 			);
 			path = "Coin-Flip-App";
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 				D64991352981F53100B1F8BB /* coinFlip.mp3 in Resources */,
 				D6D72CB3297F1E5800CD29E7 /* LaunchScreen.storyboard in Resources */,
 				D6D72CC12981EBB500CD29E7 /* Tails.png in Resources */,
+				D6C81588299548F50051C105 /* Heads.png in Resources */,
 				D6D72CB0297F1E5800CD29E7 /* Assets.xcassets in Resources */,
-				D6D72CC02981EBB500CD29E7 /* Heads.png in Resources */,
 				D6D72CAE297F1E5700CD29E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
