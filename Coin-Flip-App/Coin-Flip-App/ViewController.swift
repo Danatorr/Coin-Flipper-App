@@ -25,6 +25,16 @@ class ViewController: UIViewController {
     }
 
     @IBAction func ButtonPress(_ sender: UIButton) {
+        //Reduces the sender's (the button that got pressed) opacity to half.
+        sender.alpha = 0.5
+
+        //Code should execute after 0.2 second delay.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            //Bring's sender's opacity back up to fully opaque.
+            sender.alpha = 1.0
+        }
+
+        
         let pressedButton = sender.tag
         
         switch pressedButton {
@@ -40,10 +50,10 @@ class ViewController: UIViewController {
     func changeLanguage(){
         if(language == "en"){
             languageImage.setImage(UIImage(named: "USAFlag"), for: .normal)
-            flipButton.setTitle("FLIP", for: .normal)
+            flipButton.setTitle("JOGAR", for: .normal)
         } else if(language == "pt"){
             languageImage.setImage(UIImage(named: "BrazilFlag"), for: .normal)
-            flipButton.setTitle("JOGAR", for: .normal)
+            flipButton.setTitle("FLIP", for: .normal)
         }
 
         
@@ -105,6 +115,5 @@ class ViewController: UIViewController {
             print(error.localizedDescription)
         }
     }
-
 }
 
